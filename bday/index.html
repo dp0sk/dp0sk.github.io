@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&amp;display=swap" rel="stylesheet"> 
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>С днём рождения!</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script type="text/javascript"></script>
+<script>
+var nameBD = ['Денис'];
+var a=Math.round(Math.random()*3)
+var hbdR = ['С ДНЮХАЙ ТЕБЯ!', 'С днём рождения!', 'с др)', 'расти лапшой не будь большой!!!'];
+var b=Math.round(Math.random()*2)
+var imgBDR = ['src/bd0.png', 'src/bd1.png', 'src/bd2.png'];
+</script>
+<style type="text/css">
+html {
+    max-width: auto;
+    flex-wrap: nowrap
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    /*background: url(../src/bg.jpg);*/
+    color: #fff;
+    max-width: 520px;
+    font-family: 'Google Sans',-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+
+.avatar img { 
+width: 150px !important;
+    height: 150px !important;
+    display: inline;
+    margin-top: 75px;
+border-radius: 100%;
+}
+
+
+.avatar, .name,.nick,html,main {
+    display: flex;
+    justify-content: center
+}
+
+body,main {
+    flex-direction: column
+}
+
+main {
+    width: auto;
+    max-width: 510px;
+    flex-wrap: nowrap
+}
+
+.name {
+    font-weight: 600
+}
+
+.name,.nick {
+    text-align: center
+}
+
+.name {
+    font-size: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nick {
+    font-weight: 600;
+    margin: 0;
+    font-size: 20px
+}
+
+footer {
+    max-width: 510px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: 'Google Sans';
+    font-weight: 600;
+    margin: 20px;
+}
+
+@font-face {
+    font-family:'Google Sans';font-style:normal;font-weight:400;src:local('Google Sans Regular'),local('GoogleSans-Regular'),url(https://fonts.gstatic.com/s/googlesans/v16/4UaGrENHsxJlGDuGo1OIlL3Kwp5eKQtGBlc.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+}
+</style>
+</head>
+
+<body>
+<main>
+  <p class="avatar"><script>document.write ("<img src="+imgBDR[b]+">");</script></img></p>
+  <p class="name"><script>document.write (""+nameBD+"");</script>, <br> <script>document.write (""+hbdR[a]+"");</script></p>
+  <p class="nick">(мои искренние поздравления)</p>
+</main>
+<footer>[ От Серёги ]</footer>
+</body>
+</html>
