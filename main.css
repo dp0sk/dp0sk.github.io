@@ -13,11 +13,24 @@ body {
     font-family: 'Google Sans',-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
 }
 
-.name,.nick,html,main {
+.avatar img { 
+width: 150px !important;
+    height: 150px !important;
+    display: inline;
+    margin-top: 75px;
+border-radius: 100%;
+}
+
+
+.anchor, .avatar, .name,.nick,html,main {
     display: flex;
     justify-content: center
 }
-
+.anchor a {
+margin: 10px;
+font-size: 20px;
+display: block;
+}
 body,main {
     flex-direction: column
 }
@@ -41,7 +54,6 @@ main {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
-    margin-top: 75px;
     display: flex;
     flex-wrap: nowrap;
 }
