@@ -10,7 +10,7 @@ body {
     /*background: url(../src/bg.jpg);*/
     color: #fff;
     max-width: 520px;
-    font-family: 'Google Sans',-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
 }
 
 .avatar img { 
@@ -30,7 +30,6 @@ border-radius: 100%;
 margin: 10px;
 font-size: 20px;
 display: block;
-font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
 }
 body,main {
     flex-direction: column
