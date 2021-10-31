@@ -169,7 +169,7 @@ footer {
  text-align:center;
  white-space:pre-wrap;
  transform:translate(-50%,-5px) scale(.5)
-
+}
 [data-tooltip]:hover:before{
  visibility:visible;
  opacity:1
