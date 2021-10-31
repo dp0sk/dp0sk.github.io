@@ -49,6 +49,7 @@ color: #fff;
 font-weight: 400;
 padding: 2px 5px;
 border-bottom: 2px solid #0000;
+	background-color: none !important;
 }
 body,main {
     flex-direction: column
@@ -121,7 +122,7 @@ footer {
     display: block;
     width: 45px;
     height: 45px;
-    background: #000000cc;
+    background: #000000cc !important;
     border-radius: 40px;
     padding: 0px;
     text-align: center;
