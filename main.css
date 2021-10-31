@@ -17,9 +17,6 @@ body {
 .social a img, .anchor a {
 	transition: 0.2s !important;
 }
-.anchor a{
-	border-bottom: 2px solid #0000;
-}
 .anchor a:hover {
 	border-bottom-color: #fff
 }
@@ -43,6 +40,8 @@ display: block;
 text-decoration: none;
 color: #fff;
 font-weight: 400;
+padding: 2px 5px;
+border-bottom: 2px solid #0000;
 }
 body,main {
     flex-direction: column
