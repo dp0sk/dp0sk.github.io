@@ -4,7 +4,7 @@ html {
 }
 
 a {
-    user-select: none !important;
+    -webkit-tap-highlight-color: #0000 !important;
 }
 
 body {
