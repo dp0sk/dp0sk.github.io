@@ -3,6 +3,10 @@ html {
     flex-wrap: nowrap
 }
 
+a {
+    text-decoration: none !important;
+}
+
 body {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
