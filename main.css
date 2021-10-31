@@ -13,6 +13,16 @@ body {
     font-family: Google Sans,'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,-apple-system,BlinkMacSystemFont,segoe ui,helvetica neue,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
 }
 
+
+.social a img, .anchor a {
+	transition: 0.2s !important;
+}
+.anchor a{
+	border-bottom: 2px solid #0000;
+}
+.anchor a:hover {
+	border-bottom-color: #fff
+}
 .avatar img { 
 width: 150px !important;
     height: 150px !important;
