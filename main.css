@@ -24,7 +24,8 @@ body {
 width: 150px !important;
     height: 150px !important;
     display: inline;
-    margin-top: 75px;
+    margin-top: 70px;
+	margin-bottom: 30px;
 border-radius: 100%;
 }
 
@@ -63,9 +64,7 @@ main {
 
 .name {
     font-size: 35px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 20px;
+    margin: 20px 50px;
     display: flex;
     flex-wrap: nowrap;
 }
