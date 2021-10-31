@@ -142,27 +142,26 @@ footer {
 [data-tooltip] {
  position:relative;
  z-index:10;
- font-family:Google Sans Regular
+ font-family:Google Sans, 'Google Sans', Roboto, Arial
 }
-[data-tooltip]:before,
-[data-tooltip]:after {
+[data-tooltip]:before {
  position:absolute;
  visibility:hidden;
  opacity:0;
  left:50%;
- bottom:calc(100% + 5px);
+ top:calc(100% + 15px);
  pointer-events:none;
  transition:.2s;
  will-change:transform
 }
 [data-tooltip]:before {
  content:attr(data-tooltip);
- padding:3px 18px;
+ padding:8px 14px;
  min-width:50px;
  max-width:300px;
  width:max-content;
  width:-moz-max-content;
- border-radius:10px;
+ border-radius:8px;
  font-size:14px;
  background-color:rgba(255,255,255,.9);
  box-shadow:0 0 24px rgba(0,0,0,.2);
@@ -170,18 +169,8 @@ footer {
  text-align:center;
  white-space:pre-wrap;
  transform:translate(-50%,-5px) scale(.5)
-}
-[data-tooltip]:after {
- content:'';
- border-style:solid;
- border-width:5px 5px 0;
- border-color:rgba(255,255,255,.9) transparent transparent transparent;
- transition-duration:0s;
- transform-origin:top;
- transform:translateX(-50%) scaleY(0)
-}
-[data-tooltip]:hover:before,
-[data-tooltip]:hover:after {
+
+[data-tooltip]:hover:before{
  visibility:visible;
  opacity:1
 }
@@ -189,17 +178,13 @@ footer {
  transition-delay:.3s;
  transform:translate(-50%,-5px) scale(1)
 }
-[data-tooltip]:hover:after {
- transition-delay:.5s;
- transition-duration:.2s;
- transform:translateX(-50%) scaleY(1)
-}
+
 .tooltip {
  position:absolute;
  z-index:1070;
  display:block;
  margin:0;
- font-family:google sans regular,serif;
+ font-family:Google Sans, 'Google Sans', Roboto, Arial;
  line-height:1.5;
  text-align:left;
  text-align:start;
