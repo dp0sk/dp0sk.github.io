@@ -25,15 +25,19 @@ body {
     font-family: Google Sans,'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,-apple-system,BlinkMacSystemFont,segoe ui,helvetica neue,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
 }
 
+.pCard#wip  {
+    filter:opacity(0.7) ;
+}
+
 .pCard {
     display: block;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 45px;
     background: #fff2;
-    margin: 5px;
+    margin: 6px;
 }
 .pImg {
-    border-radius: 5px;
+    border-radius: 25px;
 }
 .cardContain {
     display: flex;
