@@ -6,6 +6,7 @@ html {
 a {
     -webkit-tap-highlight-color: #0000 !important;
     text-decoration: none;
+    color:#fff
 }
 
 body {
@@ -19,8 +20,40 @@ body {
     padding: 0;
     background: #0f0f0f;
     color: #fff;
+    display: flex;
     max-width: 520px;
     font-family: Google Sans,'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,-apple-system,BlinkMacSystemFont,segoe ui,helvetica neue,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+
+.pCard {
+    display: block;
+    padding: 20px;
+    border-radius: 25px;
+    background: #fff2;
+    margin: 5px;
+}
+.pImg {
+    border-radius: 5px;
+}
+.cardContain {
+    display: flex;
+}
+.pName {
+    font-size: 20px;
+    font-weight: 600;
+}
+.pDesc{
+    font-size: 16px;
+    color: #fffc;
+}
+.pName, .pDesc{
+    margin-block: unset;
+}
+.pText {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .about {
