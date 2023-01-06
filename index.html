@@ -4,36 +4,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&amp;display=swap" rel="stylesheet"> 
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="/main.css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>D-Page</title>
   <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script type="text/javascript"></script>
 <script>
 var a=Math.round(Math.random()*1)
-var nameR = ['Серега Жажогов', 'Сергей Ожогов'];
+var nameR = ['Серега Жажогов', 'Сергей Ожогов']
+var nickR = ['dp0sk','debil polnyy'];
 var b=Math.round(Math.random()*5)
-var imgR = ['src/pic0.png', 'src/pic1.png', 'src/pic2.png', 'src/pic3.png', 'src/pic4.png', 'src/pic5.png', 'src/pic6.png'];
+var imgR = ['/src/pic0.png', '/src/pic1.png', '/src/pic2.png', '/src/pic3.png', '/src/pic4.png', '/src/pic5.png', '/src/pic6.png'];
 </script>
 </head>
 
 <body>
 <main>
-  <p class="avatar"><script>document.write ("<img src="+imgR[b]+">");</script></img></p>
+  <div class="avatar"><script>document.write ("<img height=160px src="+imgR[b]+">");</script></img></div>
   <p class="name">Здесь обитает <br> <script>document.write (""+nameR[a]+"");</script></p>
-  <p class="nick">a.k.a dp0sk</p>
-  <p class="social">
+  <p class="nick">a.k.a <script>document.write (""+nickR[a]+"");</script></p>
+  <div class="social">
   <a href="//vk.com/dp0sk" class="vk" data-tooltip="VK"><img src="src/vk.png" alt="VK" class="svk"></img></a>
   <a href="//t.me/dp0sk" class="tg" data-tooltip="Telegram"><img src="src/tg.png"  alt="Telegram" class="stg"></img></a>
   <a href="//instagram.com/dp0sk" class="ig1" data-tooltip="Instagram"><img src="src/ig.png" alt="Instagram" class="sig1"></img></a>
   <a href="//github.com/dp0sk" class="gh" data-tooltip="GitHub"><img src="src/gh.png" alt="GitHub" class="sgh"></img></a>
-  </p>
-<p class="anchor">
+  </div>
+<div class="anchor">
 <a href="/about/">Обо мне</a>
 <a href="//t.me/dp0sk_blog">Блог</a>
 <a href="/projects/">Проекты</a>
-</p>
+</div>
 </main>
-<footer>[ жопа ]</footer>
+<footer><p>[ жопа ]</p></footer>
 </body>
 </html>
